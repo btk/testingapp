@@ -1,0 +1,48 @@
+{
+    "unique_name": "devapp",
+    "version": "1.0.5",
+    "main": "index.html",
+    "licence": "GPL-v3",
+    "languages": [
+        "en",
+        "tr"
+    ],
+    "supported_orientations": [
+        "all"
+    ],
+    "default_language": "en",
+    "developer_name": "Otsimo",
+    "homepage": "https://github.com/otsimo/devapp",
+    "repository": "https://github.com/otsimo/devapp.git",
+    "authors": [{
+        "name": "Burak Tokak",
+        "email": "burak@otsimo.com"
+    }],
+    "exclude": [],
+    "settings": "settings.json",
+    "kv_path": "data",
+    "capabilities": [
+        "sandbox",
+        "tts"
+    ],
+    "metadata": [{
+        "language": "en",
+        "visible_name": "Development Test App",
+        "summary": "An app to compose phrases for kids with autism.",
+        "description": "Otsimo AAC is an application that ables kids with autism who can not speak to compose phrases by tapping on the words. Otsimo AAC uses picture exchange communication system.",
+        "keywords": [
+            "aac",
+            "pecs",
+            "phrase",
+            "talking"
+        ],
+        "logo": "i18n/en/logo_en_450x300.png",
+        "icon": "i18n/en/icon_en_512.png",
+        "images": [
+            "i18n/en/ss1_en_1024x768.png",
+            "i18n/en/ss2_en_1024x768.png",
+            "i18n/en/ss3_en_1024x768.png"
+        ],
+        "assets": []
+    }]
+}
